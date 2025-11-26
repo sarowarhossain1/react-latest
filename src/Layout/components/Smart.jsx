@@ -12,11 +12,11 @@ const Smart = ({dark}) => {
             <div className="grid grid-cols-1 md:grid-cols-2 m-20">
           <div className="mt-46 mx-10">
             <div>
-              <h2 className="text-3xl font-bold text-[#212529]">ইনভেন্টরি ও ফাইন্যান্সিয়াল ম্যানেজমেন্টের জন্য স্মার্ট</h2>
-              <p className="text-3xl font-bold text-[#212529] mb-8">ড্যাশবোর্ড</p>
+              <h2 className="text-2xl font-sans-serif font-semibold text-[#212529]">ইনভেন্টরি ও ফাইন্যান্সিয়াল ম্যানেজমেন্টের জন্য স্মার্ট</h2>
+              <p className="text-2xl font-bold font-sans-serif text-[#212529] mb-8">ড্যাশবোর্ড</p>
             </div>
             <div className="mx-18">
-              <ul class="space-y-2 text-[#212529] leading-relaxed font-semibold">
+              <ul class="space-y-2 text-[#212529] leading-relaxed font-semibold font-inter">
                 <li>স্মার্ট এবং তথ্যপূর্ণ ড্যাশবোর্ড</li>
                 <li>প্রোডাক্ট ক্যাটালগ এবং ক্যাটাগরি</li>
                 <li>স্টক ম্যানেজমেন্ট</li>
@@ -41,11 +41,11 @@ const Smart = ({dark}) => {
           </div>
           <div className="mt-18">
             <div>
-              <h2 className="text-3xl font-bold text-[#212529] mb-2">মাল্টি-স্টোর ম্যানেজমেন্টের জন্য পয়েন্ট অফ সেল</h2>
-              <p className="text-3xl font-bold text-[#212529] mb-4">সলিউশন</p>
+              <h2 className="text-2xl font-sans-serif font-bold text-[#212529] mb-2">মাল্টি-স্টোর ম্যানেজমেন্টের জন্য পয়েন্ট অফ সেল</h2>
+              <p className="text-2xl font-inter font-bold text-[#212529] mb-4">সলিউশন</p>
             </div>
             <div className="mx-8">
-              <ul class="space-y-2 text-[#212529] leading-relaxed font-semibold">
+              <ul class="space-y-2 text-[#212529] leading-relaxed font-semibold font-inter">
                 <li>স্মার্ট এবং তথ্যপূর্ণ ড্যাশবোর্ড</li>
                 <li>প্রোডাক্ট ক্যাটালগ এবং ক্যাটাগরি</li>
                 <li>স্টক ম্যানেজমেন্ট</li>

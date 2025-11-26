@@ -19,12 +19,12 @@ const Laptop = () => {
                 </p>
             </div>
             <div>
-                <h3 className='text-4xl text-white mb-3'>আপনার হাতের মুঠোয় ইনভেন্টরি রাখুন,</h3>
-                <p className='text-4xl text-white'>ব্যবসার উন্নতি করুন।</p>
+                <h3 className='text-3xl font-inter text-white mb-3'>আপনার হাতের মুঠোয় ইনভেন্টরি রাখুন,</h3>
+                <p className='text-3xl font-inter text-white'>ব্যবসার উন্নতি করুন।</p>
             </div>
             <div className='flex gap-3'>
                 <div className='mt-6'>
-                    <button className='bg-[#212529] px-20 py-4 text-2xl text-white rounded font-bold'>SIGN UP FOR FREE</button>
+                    <button className='bg-[#212529] px-20 py-4 text-xl text-white rounded  font-sans-serif'>SIGN UP FOR FREE</button>
                 </div>
                 <div className='mt-6'>
                   <button className='bg-[#FFFFFF] px-14 py-4 text-xl text-black rounded font-bold hover:bg-pink-700 hover:text-white'>  EXPLORE DEMO VIDEO</button>

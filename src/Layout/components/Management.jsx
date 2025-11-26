@@ -9,9 +9,9 @@ const Management = ({dark}) => {
   <div>
     <div>
         <div className='text-center mt-25 mb-10'>
-            <p className='text-pink-800 text-xl font-sans font-bold mb-3'>একটি পূর্ণ অভিজ্ঞতার জন্য</p>
-            <h2 className='text-3xl font-serif  font-semibold'>সেরা ম্যানেজমেন্ট সফটওয়্যার থেকে</h2>
-            <h1 className='text-pink-800 text-2xl font-sans font-bold mb-3'>পছন্দ করুন বিশ্বজুড়ে</h1>
+            <p className='text-pink-800 text-xl font-sans-sarif font-bold mb-3'>একটি পূর্ণ অভিজ্ঞতার জন্য</p>
+            <h2 className='text-2xl font-sans-sarif  font-semibold'>সেরা ম্যানেজমেন্ট সফটওয়্যার থেকে</h2>
+            <h1 className='text-pink-800 text-2xl font-sans-sarif  font-bold mb-3'>পছন্দ করুন বিশ্বজুড়ে</h1>
         </div>
       <div className={`p-6 rounded-md ${dark ?  " text-black": " text-black"}`}>
   <div className="flex justify-center gap-16 flex-wrap ">
@@ -23,7 +23,7 @@ const Management = ({dark}) => {
       <p className="text-3xl text-pink-800 font-bold">
         <MapPin />
       </p>
-      <h2 className='text-[20px] font-sans-sorif font-bold '>
+      <h2 className='text-[20px] font-sans-sarif font-bold '>
         ঢাকা অফিস ঠিকানাঃ ২৭২/৫, পশ্চিম আগারগাঁও, <br />
         শেরেবাংলা নগর, ঢাকা-১২০৭ (Head Office)
       </h2>
@@ -33,7 +33,7 @@ const Management = ({dark}) => {
       <p className="text-3xl text-pink-800 font-bold">
         <MapPin />
       </p>
-      <h2 className='text-[20px] font-sans-sorif font-bold'>
+      <h2 className='text-[20px] font-sans-sarif font-bold'>
         রাজশাহী অফিস ঠিকানাঃ ২১৬/১, পশ্চিম তালাইমারি, <br />
         কাজলা, বোয়ালিয়া, রাজশাহী-৬২০৪
       </h2>
@@ -42,7 +42,7 @@ const Management = ({dark}) => {
 
   
   <div className="text-center my-11">
-    <button className="border-1 border-pink-400 rounded-4xl px-6 py-2  hover:bg-pink-800 text-pink-600 text-xl font-bold hover:text-white">
+    <button className="border-1 border-pink-400 rounded-4xl px-6 py-2  hover:bg-pink-800 text-pink-600 text-sm font-bold hover:text-white font-sans-sarif">
       সাইন আপ
     </button>
   </div>

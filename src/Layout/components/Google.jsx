@@ -12,9 +12,9 @@ const Google = () => {
           <div className="grid grid-cols-1 md:grid-cols-2">
             <div className="mt-50 mx-30 ">
               <div className="flex flex-col gap-3 ">
-                <span className="text-4xl font-bold text-gray-800">আপনার কাজকে সহজ করতে</span>
-                <span className="text-4xl  font-bold text-gray-800">হিসাবনিকাশ সফটওয়্যার কে নিয়ে এলো</span>
-                <span className="text-4xl  font-bold text-gray-800">মোবাইল অ্যাপে!</span>
+                <span className="text-2xl font-sans-serif font-bold text-gray-800">আপনার কাজকে সহজ করতে</span>
+                <span className="text-3xl font-inter  font-bold text-gray-800">হিসাবনিকাশ সফটওয়্যার কে নিয়ে এলো</span>
+                <span className="text-3xl font-inter font-bold text-gray-800">মোবাইল অ্যাপে!</span>
               </div>
               {/* <div className="flex mt-6 m-2 bg-black w-48 h-15 rounded-xl border-2 border-text-[#44C0ED]">
                 <div className="mt-3 ">
@@ -26,11 +26,11 @@ const Google = () => {
                 </div>
               </div> */}
               <div className="mt-3">
-                <img src={SHUNNOITE} alt="" className="w-40"/>
+                <img src={SHUNNOITE} alt="" className="w-35"/>
               </div>
             </div>
             <div className="mt-2">
-              <img src={SHUNNOIT} alt="" className="w-[650px] me-18 transition transform duration-300 hover:scale-105"/>
+              <img src={SHUNNOIT} alt="" className="w-[600px] me-18 transition transform duration-300 hover:scale-105"/>
             </div>
           </div>
         </div>

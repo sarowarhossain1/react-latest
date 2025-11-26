@@ -50,12 +50,12 @@ const Question = ({ dark }) => {
 
   return (
     <div>
-      <div className={dark ? "dark" : ""}>
-        <div className="shadow-2xl">
-          <div className="grid grid-cols-1 md:grid-cols-2 m-15 shadow-lg">
-            <div className="mt-20 mx-32 shadow-lg">
+      <div className="bg-[#CFE2FF]">
+        <div className="">
+          <div className="grid grid-cols-1 md:grid-cols-2 m-15 ">
+            <div className="mt-20 mx-32 ">
               <div className="mb-4">
-                <h3 className="text-3xl font-bold ">
+                <h3 className="text-2xl font-bold font-sans-serif">
                   প্রায় জিজ্ঞাসিত প্রশ্নাবলী (FAQ)
                 </h3>
               </div>

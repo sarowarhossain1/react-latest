@@ -46,11 +46,11 @@ const Marquee = () => {
     <div className="">
        <div className="container pt-10 pb-10 text-center mx-auto">
 
-      <h5 className="text-center mt-5 text-[#E02A65] text-2xl font-medium mb-4">
+      <h5 className="text-center font-sans-sarif mt-5 text-[#E02A65] text-xl font-medium mb-4">
         YOUR UNIFIED PLATFORM
       </h5>
 
-      <h1 className="text-center text-black mb-8 text-4xl font-bold font-serif mb-20">
+      <h1 className="text-center font-inter text-black  text-2xl font-bold font-serif mb-20">
         Tightly integrated with apps to manage every
         <br />
         angle of your business
@@ -62,9 +62,9 @@ const Marquee = () => {
           {marqueeIcons.map((Icon, i) => (
             <div
               key={i}
-              className="marquee-box bg-pink-100 border-0 border-pink-800 shadow-lg  rounded-xl flex justify-center items-center mx-5"
+              className="marquee-box bg-pink-100 border-0 border-pink-800 shadow-sm  rounded-xl flex justify-center items-center mx-5"
             >
-              <Icon size={36} className="text-pink-900 font-bold" />
+              <Icon size={36} className="text-pink-900 font-bold font-inter" />
             </div>
           ))}
         </div>
@@ -76,7 +76,7 @@ const Marquee = () => {
           {marqueeIcons.map((Icon, i) => (
             <div
               key={i}
-              className="marquee-box bg-pink-100 border-0 border-pink-800 shadow-lg  rounded-xl flex justify-center items-center mx-5"
+              className="marquee-box bg-pink-100 border-0 border-pink-800 shadow-sm  rounded-xl flex justify-center items-center mx-5"
             >
               <Icon size={36} className="text-pink-900 font-bold " />
             </div>
@@ -84,7 +84,7 @@ const Marquee = () => {
         </div>
       </div>
       <div className="flex justify-center mt-6">
-            <h3 className="text-xl font-semibold text-blue-600 font-serif"><a href=""> More Integrations   </a></h3>
+            <h3 className="text-sm font-semibold text-blue-600 font-inter"><a href=""> More Integrations   </a></h3>
               <p className="cursor-pointer text-blue-600 mt-1">  <ArrowRight/> </p>    
                   
       </div>
