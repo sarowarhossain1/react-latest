@@ -55,7 +55,7 @@ const Faque = ({ dark }) => {
           <div className="grid grid-cols-1 md:grid-cols-2 m-15 ">
             <div className="mt-20 mx-32">
               <div className="mb-4">
-                <h3 className="text-4xl font-bold font-sans-sarif">
+                <h3 className="text-2xl font-inter font-bold font-sans-sarif">
                   প্রায় জিজ্ঞাসিত প্রশ্নাবলী (FAQ)
                 </h3>
               </div>
@@ -67,7 +67,7 @@ const Faque = ({ dark }) => {
               <img
                 src={SHUNNOIT}
                 alt=""
-                className="transition transform duration-300 hover:scale-105"
+                className="transition transform duration-300 hover:scale-105 w-[750px]"
               />
             </div>
           </div>

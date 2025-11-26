@@ -46,7 +46,7 @@ const HomePage = ({ dark }) => {
             <img
               src={SHUNNOIT}
               alt=""
-              className="w-[750px] transition transform duration-300 hover:scale-105"
+              className="w-[650px] h-[750px] transition transform duration-300 hover:scale-105"
             />
           </div>
         </div>
