@@ -31,18 +31,18 @@ const Support = ({ dark, setDark }) => {
     { name: "সাপোর্ট টিম", path:"/support", icon: <Users size={18} /> },
     { name: "FAQ", path:"/faq", icon: <HelpCircle size={18} /> },
     { name: "যোগাযোগ", path:"/communication", icon: <PhoneCall size={18} /> },
-    { name: "ব্যাংক", icon: <Landmark size={18} /> },
+    { name: "ব্যাংক", path:"/bank", icon: <Landmark size={18} /> },
   ];
 
   return (
 <div>
   <div>
         <nav
-      className={`w-full fixed top-0 z-50 px-6 py-5 flex items-center justify-between shadow-md
+      className={`w-full fixed top-0 z-50 px-6 py-3 flex items-center justify-between shadow-md
         ${dark ? "bg-gray-900 text-white" : "bg-white text-gray-900"}`}
     >
 
-      <div className="flex items-center mx-22">
+      <div className="flex items-center space-x-5">
         <img src={SHUNNOIT} className="w-30 h-12" alt="logo" />
       </div>
       <div className="hidden md:flex  justify-end space-x-8 text-base font-medium ">

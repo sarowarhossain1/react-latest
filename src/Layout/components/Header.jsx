@@ -35,11 +35,11 @@ const Header = ({ dark, setDark }) => {
 <div>
   <div>
         <nav
-      className={`w-full fixed top-0 z-50 px-6 py-5 flex items-center justify-between shadow-md
+      className={`w-full fixed top-0 z-50 px-6 py-3 flex items-center justify-between shadow-md
         ${dark ? "bg-gray-900 text-white" : "bg-[#F5F5F5] text-gray-900"}`}
     >
 
-      <div className="flex items-center mx-22">
+      <div className="flex items-center ">
         <img src={SHUNNOIT} className="w-30 h-12" alt="logo" />
       </div>
       <div className="hidden md:flex  justify-end space-x-8 text-base font-medium ">
