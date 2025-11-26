@@ -20,7 +20,7 @@ const Login = () => {
           Enter your mobile number and password.
         </p>
 
-        <form onSubmit={handleLogin}>
+        <form >
           <label className="font-medium">
             Mobile<span className="text-red-600">*</span>
           </label>
@@ -54,7 +54,7 @@ const Login = () => {
 
           <button
             type="submit"
-            disabled={isLoading}
+            // disabled={isLoading}
             className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 rounded-md mt-6"
           >
             {isLoading ? "Logging In..." : "Log In"}

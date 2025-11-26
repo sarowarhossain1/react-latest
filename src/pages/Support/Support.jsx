@@ -43,7 +43,7 @@ const Support = ({ dark, setDark }) => {
     >
 
       <div className="flex items-center space-x-5">
-        <img src={SHUNNOIT} className="w-30 h-12" alt="logo" />
+        <img src={SHUNNOIT} className="w-15 h-8" alt="logo" />
       </div>
       <div className="hidden md:flex  justify-end space-x-8 text-base font-medium ">
         {menuItems.map((item, idx) => (
@@ -75,7 +75,7 @@ const Support = ({ dark, setDark }) => {
             <img
               src={SHUNNOIT}
               alt="profile"
-              className="w-10 h-10 rounded-full cursor-pointer border"
+              className="w-8 h-8 rounded-full cursor-pointer border"
             />
           
           </button>
@@ -130,7 +130,7 @@ const Support = ({ dark, setDark }) => {
                 <img
                   src="https://i.pravatar.cc/40"
                   alt="profile"
-                  className="w-10 h-10 rounded-full cursor-pointer border"
+                  className="w-8 h-8 rounded-full cursor-pointer border"
                 />
                 <span className="font-semibold">Sarowar</span>
               </button>

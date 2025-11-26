@@ -37,7 +37,7 @@ const Inventory = () => {
               <img src={SHUNNOITZ} alt="" className="duration-300 transition transform hover:scale-105 "/>
             </div>
             <div className="mt-20 ">
-              <div className="mx-20 space-y-4">
+              <div className="mx-20 space-y-2">
                 <div className="flex items-start gap-3">
                   <span className="w-6 h-6 flex items-center justify-center bg-[#FA393A] text-white rounded-full">
                     <Check size={14} />
@@ -91,7 +91,7 @@ const Inventory = () => {
             </div>
             <div>
                 <div className="mt-15">
-                    <div className="space-y-4">
+                    <div className="space-y-3">
                         <div className="flex items-start  gap-3">
                   <span className="w-6 h-6 flex items-center justify-center bg-[#FA393A] text-white rounded-full">
                     <Check size={14} />
