@@ -43,10 +43,10 @@ const Marquee = () => {
 
   return (
    <div>
-    <div className="">
+    <div className="bg-white">
        <div className="container pt-10 pb-10 text-center mx-auto">
 
-      <h5 className="text-center font-sans-sarif mt-5 text-[#E02A65] text-xl font-medium mb-4">
+      <h5 className="text-center font-sans-sarif mt-5 text-orange-800 text-xl font-medium mb-4">
         YOUR UNIFIED PLATFORM
       </h5>
 
@@ -83,9 +83,9 @@ const Marquee = () => {
           ))}
         </div>
       </div>
-      <div className="flex justify-center mt-6">
-            <h3 className="text-sm font-semibold text-blue-600 font-inter"><a href=""> More Integrations   </a></h3>
-              <p className="cursor-pointer text-blue-600 mt-1">  <ArrowRight/> </p>    
+      <div className="flex justify-center mt-6 space-y-5">
+            <h3 className="text-sm font-bold text-pink-600 font-inter "><a href=""> More Integrations   </a></h3>
+              <p className="cursor-pointer text-blue-600 mt">  <ArrowRight/> </p>    
                   
       </div>
 

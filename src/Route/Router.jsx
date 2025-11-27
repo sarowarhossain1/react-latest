@@ -1,20 +1,21 @@
 import { createBrowserRouter } from "react-router-dom";
 
 import Feature from "../pages/Feature/Feature";
-import Header from "../Layout/components/Header";
+
 import Support from "../pages/Support/Support";
 import Faq from "../pages/Faq/Faq";
 import Communication from "../pages/Communication/Communication";
-import Bank from "../pages/Bank/Bank";
-
 import Login from "../pages/Private/Public/Login";
 import PrivateRoute from "./PrivateRoute";
+
+import Root from "./Root";
+import Header from "../Layout/components/Header";
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Header />,
+    element: <Header/>,
   },
   {
     path: "/feature",
@@ -36,7 +37,7 @@ const router = createBrowserRouter([
     path:"/bank",
     element:(
         <PrivateRoute>
-          <Bank/>
+           <Root/>
         </PrivateRoute>
     )
   },

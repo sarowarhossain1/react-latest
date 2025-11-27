@@ -43,7 +43,7 @@ const Support = ({ dark, setDark }) => {
     >
 
       <div className="flex items-center space-x-5">
-        <img src={SHUNNOIT} className="w-15 h-8" alt="logo" />
+        <img src={SHUNNOIT} className="w-20 h-10" alt="logo" />
       </div>
       <div className="hidden md:flex  justify-end space-x-8 text-base font-medium ">
         {menuItems.map((item, idx) => (
@@ -107,9 +107,9 @@ const Support = ({ dark, setDark }) => {
         >
           <div className="flex flex-col space-y-4 text-base font-medium">
             {menuItems.map((item, idx) => (
-              <div key={idx} className="flex items-center space-x-2 cursor-pointer">
+              <Link key={idx} to={item.path} className="flex items-center space-x-2 cursor-pointer">
                 {item.icon} <span>{item.name}</span>
-              </div>
+              </Link>
             ))}
 
             {/* Dark Mode */}

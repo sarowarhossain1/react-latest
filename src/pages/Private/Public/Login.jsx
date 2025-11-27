@@ -3,8 +3,6 @@ import { useState } from "react";
 const Login = () => {
   const [showPass, setShowPass] = useState(false);
 
-  
-
   return (
     <div className="min-h-screen flex justify-center items-center bg-gray-50 px-5">
       <div className="w-full max-w-md bg-white shadow-md rounded-lg p-8">

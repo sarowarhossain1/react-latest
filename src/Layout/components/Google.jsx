@@ -3,40 +3,36 @@ import SHUNNOIT from "../../assets/shunnoit8.png";
 import SHUNNOITE from "../../assets/itlogo.svg";
 import Inventory from "./Inventory";
 
-
 const Google = () => {
   return (
     <div>
-      <div>
-        <div className="bg-[#E44679]">
-          <div className="grid grid-cols-1 md:grid-cols-2">
-            <div className="mt-50 mx-30 ">
-              <div className="flex flex-col gap-3 ">
-                <span className="text-2xl font-sans-serif font-bold text-gray-800">আপনার কাজকে সহজ করতে</span>
-                <span className="text-3xl font-inter  font-bold text-gray-800">হিসাবনিকাশ সফটওয়্যার কে নিয়ে এলো</span>
-                <span className="text-3xl font-inter font-bold text-gray-800">মোবাইল অ্যাপে!</span>
-              </div>
-              {/* <div className="flex mt-6 m-2 bg-black w-48 h-15 rounded-xl border-2 border-text-[#44C0ED]">
-                <div className="mt-3 ">
-                   <FaGooglePlay  className="text-[#44C0ED] text-3xl mx-2"/>
-                </div>
-                <div className="mt-1">
-                    <p className="text-white text-sm font-medium">GET IT ON</p> 
-                    <h3 className="text-white text-xl font-medium">GOOGLE PLAY</h3>
-                </div>
-              </div> */}
-              <div className="mt-3">
-                <img src={SHUNNOITE} alt="" className="w-35"/>
-              </div>
+      <div className="bg-[#E44679] py-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl mx-auto px-6">
+          <div className="flex flex-col justify-center">
+            <span className="text-2xl font-bold text-gray-800">
+              আপনার কাজকে সহজ করতে
+            </span>
+            <span className="text-3xl font-bold text-gray-800">
+              হিসাবনিকাশ সফটওয়্যার নিয়ে এলো
+            </span>
+            <span className="text-3xl font-bold text-gray-800 mb-6">
+              মোবাইল অ্যাপে!
+            </span>
+            <div>
+              <img src={SHUNNOITE} alt="Playstore" className="w-40" />
             </div>
-            <div className="mt-2">
-              <img src={SHUNNOIT} alt="" className="w-[600px] me-18 transition transform duration-300 hover:scale-105"/>
-            </div>
+          </div>
+          <div className="flex justify-center md:justify-end">
+            <img
+              src={SHUNNOIT}
+              alt=""
+              className="w-full max-w-md transition-transform duration-300 hover:scale-105"
+            />
           </div>
         </div>
       </div>
-      <div>
-        <Inventory/>
+      <div className="-mt-10">
+        <Inventory />
       </div>
     </div>
   );

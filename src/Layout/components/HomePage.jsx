@@ -10,7 +10,6 @@ const HomePage = ({ dark }) => {
         dark ? "bg-gray-800 text-white" : "bg-white text-gray-900"
       }`}
     >
-      {/* 🟦 Top padding for fixed navbar */}
       <div className="pt-[120px]">
         <div className={`w-full  grid grid-cols-1 md:grid-cols-2 p-1 gap-5 ${dark ? "bg-pink-800 text-white": "bg-white text-white"}`}>
           <div className="mx-20">

@@ -1,152 +1,72 @@
 import React from "react";
 import SHUNNOITZ from "../../assets/zoho.webp";
-// import { FaCheck } from "react-icons/fa";
-import { Check } from 'lucide-react';
+import { Check } from "lucide-react";
 import Marquee from "./Marquee";
 
-
-const Inventory = () => {
+const Inventory = ({dark}) => {
   return (
     <div>
-      <div className="relative">
-        <div className="bg-[#FA393A] h-[450px] ">
-          <div className="grid grid-cols-1 md:grid-cols-2 px-10 pt-10">
-            <div className="mx-40 mt-6">
-                <p className="text-[23px] font-sans-serif font-semibold text-yellow-400 mb-4">AT YOUR FINGERTIPS</p>
-              <h3 className="text-3xl font-inter font-semibold mb-2 shadow-2xs text-white">Know your inventory and</h3>
-              <h3 className="text-3xl font-inter font-semibold shadow-2xs text-white">grow your business</h3>
-            </div>
-            <div className="flex mt-24 justify-end">
-              <div className="mx-5 text-white text-4xl font-bold space-y-2 mt-2">
-                <button className="bg-[#212529] w-65 h-14 font-inter text-2xl text-white rounded font-bold">
-                  SIGN UP FOR FREE
-                </button>
-              </div>
-              <div className="mt-6">
-                <button className="bg-[#FFFFFF] w-65 h-14 font-inter text-[17px] text-black rounded font-bold hover:bg-pink-700 hover:text-white -mt-50 me-40">
-                  {" "}
-                  EXPLORE DEMO VIDEO
-                </button>
-              </div>
-            </div>
+      <div className="relative bg-[#FA393A] py-18">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl mx-auto px-6">
+          <div className="space-y-4">
+            <p className="text-yellow-400 text-lg md:text-xl font-semibold">AT YOUR FINGERTIPS</p>
+            <h3 className="text-2xl md:text-3xl font-bold text-white">Know your inventory and</h3>
+            <h3 className="text-2xl md:text-3xl font-bold text-white">grow your business</h3>
           </div>
-        </div>
-        <div className="absulate -mt-[390px]">
-          <div className="bg-white grid grid-cols-1 md:grid-cols-3 m-50 shadow-lg">
-            <div className=" shadow-xl ">
-              <img src={SHUNNOITZ} alt="" className="duration-300 transition transform hover:scale-105 "/>
-            </div>
-            <div className="mt-20 ">
-              <div className="mx-20 space-y-2">
-                <div className="flex items-start gap-3">
-                  <span className="w-6 h-6 flex items-center justify-center bg-[#FA393A] text-white rounded-full">
-                    <Check size={14} />
-                  </span>
-
-                  <p className="text-gray-800 font-inter text-sm">
-                    Accurate stock tracking with barcode and <br />
-                    RFID system
-                  </p>
-                </div>
-                <div className="flex items-start gap-3">
-                  <span className="w-6 h-6 flex items-center justify-center bg-[#FA393A] text-white rounded-full">
-                    <Check size={14} />
-                  </span>
-
-                  <p className="text-gray-800 font-inter text-sm">
-                    Track items based on batches and serial  <br />
-                   numbers
-                  </p>
-                </div>
-                <div className="flex items-start gap-3">
-                  <span className="w-6 h-6 flex items-center justify-center bg-[#FA393A] text-white rounded-full">
-                    <Check size={14} />
-                  </span>
-
-                  <p className="text-gray-800 font-inter text-sm">
-                    Sell at your pace with UoM conversion
-                  </p>
-                </div>
-                <div className="flex items-start gap-3">
-                  <span className="w-6 h-6 flex items-center justify-center bg-[#FA393A] text-white rounded-full">
-                    <Check size={14} />
-                  </span>
-
-                  <p className="text-gray-800 font-inter text-sm">
-                   Receive low stock alerts with reorder <br />
-                   points
-                  </p>
-                </div>
-                <div className="flex items-start gap-3">
-                  <span className="w-6 h-6 flex items-center justify-center bg-[#FA393A] text-white rounded-full">
-                    <Check size={14} />
-                  </span>
-
-                  <p className="text-gray-800 font-inter text-sm">
-                    Adjust inventory levels
-
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div>
-                <div className="mt-15">
-                    <div className="space-y-3">
-                        <div className="flex items-start  gap-3">
-                  <span className="w-6 h-6 flex items-center justify-center bg-[#FA393A] text-white rounded-full">
-                    <Check size={14} />
-                  </span>
-
-                  <p className="text-gray-800 font-inter text-sm">
-                   Configure and apply local taxes
-                  </p>
-                </div>
-                    <div className="flex items-start gap-3">
-                  <span className="w-6 h-6 flex items-center justify-center bg-[#FA393A] text-white rounded-full">
-                    <Check size={14} />
-                  </span>
-
-                  <p className="text-gray-800 font-inter text-sm">
-                   Generate instant reports
-                  </p>
-                </div>
-                    <div className="flex items-start gap-3">
-                  <span className="w-6 h-6 flex items-center justify-center bg-[#FA393A] text-white rounded-full">
-                    <Check size={14} />
-                  </span>
-
-                  <p className="text-gray-800 font-inter text-sm">
-                   Customize user roles and permissions
-                  </p>
-                </div>
-                    <div className="flex items-start gap-3">
-                  <span className="w-6 h-6 flex items-center justify-center bg-[#FA393A] text-white rounded-full">
-                    <Check size={14} />
-                  </span>
-
-                  <p className="text-gray-800 font-inter text-sm">
-                    Collaborate better with customer and <br />
-                    vendor portal
-                  </p>
-                </div>
-                    <div className="flex items-start gap-3">
-                  <span className="w-6 h-6 flex items-center justify-center bg-[#FA393A] text-white rounded-full">
-                    <Check size={14} />
-                  </span>
-
-                  <p className="text-gray-800 font-inter text-sm">
-                   Transact across currencies and countries
-                  </p>
-                </div>
-                    </div>
-                </div>
-            </div>
+          <div className="flex flex-col md:flex-row gap-4 md:justify-end mt-6 md:mt-0">
+            <button className="bg-[#212529] w-96 h-15 text-white px-8  py-3   rounded font-semibold text-sm md:text-sm">
+              SIGN UP FOR FREE
+            </button>
+            <button className="bg-white text-black w-96 h-15 px-8  py-3  rounded font-semibold text-sm md:text-sm hover:bg-pink-700 hover:text-white transition mb-30">
+              EXPLORE DEMO VIDEO
+            </button>
           </div>
-          
         </div>
       </div>
-      <div>
-        <Marquee/>
+      <div className="relative -mt-26 px-6 md:px-20 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 bg-white shadow-lg rounded-lg p-6">
+        
+          <div className="flex justify-center md:justify-start">
+            <img src={SHUNNOITZ} alt="Inventory" className="w-full max-w-xs transition-transform duration-300 hover:scale-105" />
+          </div>
+          <div className="space-y-4">
+            {[
+              "Accurate stock tracking with barcode and RFID system",
+              "Track items based on batches and serial numbers",
+              "Sell at your pace with UoM conversion",
+              "Receive low stock alerts with reorder points",
+              "Adjust inventory levels"
+            ].map((text, i) => (
+              <div key={i} className="flex items-start gap-3">
+                <span className="w-6 h-6 flex items-center justify-center bg-[#FA393A] text-white rounded-full">
+                  <Check size={14} />
+                </span>
+                <p className="text-gray-800 font-inter text-sm">{text}</p>
+              </div>
+            ))}
+          </div>
+          <div className="space-y-4">
+            {[
+              "Configure and apply local taxes",
+              "Generate instant reports",
+              "Customize user roles and permissions",
+              "Collaborate better with customer and vendor portal",
+              "Transact across currencies and countries"
+            ].map((text, i) => (
+              <div key={i} className="flex items-start gap-3">
+                <span className="w-6 h-6 flex items-center justify-center bg-[#FA393A] text-white rounded-full">
+                  <Check size={14} />
+                </span>
+                <p className="text-gray-800 font-inter text-sm">{text}</p>
+              </div>
+            ))}
+          </div>
+
+        </div>
+      </div>
+      {/* Marquee Section */}
+      <div className="mt-12">
+        <Marquee />
       </div>
     </div>
   );
